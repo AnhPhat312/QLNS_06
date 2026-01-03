@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js add dayjs
+
+PATH: 
+  /opt/git/bin:/vscode/1.89.1.24130/bin/remote-cli:/opt/git/bin:/opt/git/bin:/usr/local/share/nvm/current/bin:/usr/local/share/npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/root/.cache/yarn/v6/npm-find-up-5.0.0-4c92819ecb7083561e4f4a240a86be5198f536fc-integrity/node_modules/find-up/index.d.ts' -> '/project/workspace/node_modules/eslint/node_modules/find-up/index.d.ts'
+
+npm manifest: 
+  {
+    "name": "react-typescript",
+    "version": "1.0.0",
+    "description": "React and TypeScript example starter project",
+    "keywords": ["typescript", "react", "starter"],
+    "main": "src/index.tsx",
+    "dependencies": {
+      "loader-utils": "3.2.1",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-scripts": "5.0.1",
+      "antd": "^5.12.0",
+      "@ant-design/icons": "^5.2.0",
+      "react-router-dom": "^6.20.0",
+      "@supabase/supabase-js": "^2.39.0"
+    },
+    "devDependencies": {
+      "@types/react": "18.2.38",
+      "@types/react-dom": "18.2.15",
+      "typescript": "4.4.4",
+      "@vitejs/plugin-react": "^4.2.1",
+      "vite": "^5.0.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
